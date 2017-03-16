@@ -20,7 +20,7 @@ public class HandyPerson extends Human implements IPlumber,Electrician {
 
     @Override
     public String toString() {
-        return "HandyPerson{" + super.toString()+ '}';
+        return "HandyPerson{" + super.toString()+ '}'; //To string
     }
     
 }
