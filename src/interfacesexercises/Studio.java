@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public class Studio {
-    private List<Player> players;  //Se crea comom atributo un lista de players
+    private List<Player> players;  //Se crea como atributo un lista de players
     
     public Studio()
     {
@@ -14,7 +14,7 @@ public class Studio {
     }
     public void addPlayer(Player player)
     {
-        players.add(player);                //Se cre aun método con el cual se puede agregar un player 
+        players.add(player);                //Se cre un método con el cual se puede agregar un player 
                                              //recbibiendo  como párametro un objeto player
                                           
     }
