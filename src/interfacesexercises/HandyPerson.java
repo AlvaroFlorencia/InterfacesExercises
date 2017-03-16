@@ -4,7 +4,7 @@ package interfacesexercises;
 
 public class HandyPerson extends Human implements IPlumber,Electrician {
 
-    public HandyPerson(String Name) {           //HandyPerson hereda de Human y se impimenta de dos interfaces,
+    public HandyPerson(String Name) {           //HandyPerson hereda de Human y se implementa de dos interfaces,
         super(Name);                           //IPlumber y Electrician
     }
                                                //Constructor
